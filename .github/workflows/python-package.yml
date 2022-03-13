@@ -2,9 +2,9 @@
 
 on:
   push:
-    branches: [ KARMAN-USERBOT ]
+    branches: [ stitch - userbot ]
   pull_request:
-    branches: [ KARMAN-USERBOT ]
+    branches: [ stitch - userbot ]
 
 jobs:
   build:
@@ -34,4 +34,4 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-[![Python package](https://github.com/ArmanGG01/KARMAN-USERBOT/actions/workflows/python-package.yml/badge.svg?branch=KARMAN-USERBOT&event=workflow_dispatch)](https://github.com/ArmanGG01/KARMAN-USERBOT/actions/workflows/python-package.yml)
+[![Python package](https://github.com/Nathandilan/stitch - userbot/actions/workflows/python-package.yml/badge.svg?branch=stitch - userbot&event=workflow_dispatch)](https://github.com/Nathandilan/stitch - userbot/actions/workflows/python-package.yml)
