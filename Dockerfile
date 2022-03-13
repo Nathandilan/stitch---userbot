@@ -5,9 +5,9 @@ FROM xluxz/geezproject:buster
 #
 #YA UDH IYA PEPEK
 
-RUN git clone -b KARMAN-USERBOT https://github.com/ArmanGG01/KARMAN-USERBOT /root/userbot
+RUN git clone -b stitch---userbot https://github.com/Nathandilan/stitch---userbot /root/userbot
 RUN mkdir /root/userbot/.bin
-RUN pip install --upgrade pip setuptools
+RUN pip install --upgrade pip setuptoolsRAM-UBOT
 WORKDIR /root/userbot
 
 #Install python requirements
